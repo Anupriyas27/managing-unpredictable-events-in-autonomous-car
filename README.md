@@ -1,7 +1,21 @@
 Steps to follow for the project Execution 
 
  1. Installation
-# pip install ultralytics transformers opencv-python pillow streamlit
+Accepts image or video input from the user.
+
+Uses YOLOv8 to detect and label objects like cars, people, etc.
+
+Uses CLIP to classify the overall driving scene context using textual prompts.
+
+Displays the image/video back to the user with:
+
+Object bounding boxes
+
+Scene description
+
+Warnings for dangerous situations like accidents or hazards
+
+
 This comment tells you what packages are required:
 
 ultralytics: For YOLOv8 object detection
